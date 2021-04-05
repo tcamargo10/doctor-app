@@ -1,7 +1,9 @@
+import { Container } from "./styles";
+
 export default function Login() {
   return (
-    <div>
+    <Container>
       <h1>Login</h1>
-    </div>
+    </Container>
   );
 }
