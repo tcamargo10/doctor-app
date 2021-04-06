@@ -25,6 +25,17 @@ export const Image = styled.img`
   margin-bottom: 20px;
 `;
 
+export const Link = styled.div`
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+
+  &&:hover {
+    text-decoration: underline;
+  }
+`;
+
 export const Input = styled(TextField)`
   && {
     margin-bottom: 20px;
@@ -35,16 +46,5 @@ export const Input = styled(TextField)`
 export const FormButton = styled(Button)`
   && {
     height: 45px;
-  }
-`;
-
-export const Link = styled.div`
-  margin-top: 20px;
-  font-size: 14px;
-  color: gray;
-  cursor: pointer;
-
-  &&:hover {
-    text-decoration: underline;
   }
 `;
