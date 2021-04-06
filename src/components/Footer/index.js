@@ -1,7 +1,24 @@
+import React from "react";
+import { Container, Contain, Text, Link } from "./styles";
+
 export default function Footer() {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <Container>
+      <Contain>
+        <div>
+          <Text>&copy; 2021 NG Informática - Teste React.</Text>
+        </div>
+        <div>
+          <Text className="mr-1">Powered by </Text>
+          <Link
+            href="https://thiagocamargocodes.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Thiago Camargo
+          </Link>
+        </div>
+      </Contain>
+    </Container>
   );
 }
