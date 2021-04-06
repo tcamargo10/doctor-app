@@ -13,6 +13,8 @@ export default function Header() {
       <Contain>
         <Area>
           <IconButton
+            // diferença do padding do iconbutton
+            style={{ marginLeft: "-12px" }}
             aria-label="menu"
             onClick={() => dispatch(toggleSidebar())}
           >

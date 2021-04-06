@@ -1,7 +1,12 @@
+import React from "react";
+import { Container, Contain } from "./styles";
+
 export default function Content() {
   return (
-    <div>
-      <h1>Content</h1>
-    </div>
+    <Container>
+      <Contain>
+        <h1>Content</h1>
+      </Contain>
+    </Container>
   );
 }
