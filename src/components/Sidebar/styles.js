@@ -12,7 +12,8 @@ export const Container = styled.div`
 export const Header = styled.div`
   display: flex;
   justify-content: center;
-  padding: 15px;
+  align-items: center;
+  height: 61px;
 `;
 
 export const Image = styled.img`
