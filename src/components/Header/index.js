@@ -2,13 +2,20 @@ import React from "react";
 import { Container, Contain, Area, AreaAvatar, Avatar } from "./styles";
 import MenuIcon from "@material-ui/icons/Menu";
 import { IconButton } from "@material-ui/core";
+import { useDispatch } from "react-redux";
+import { toggleSidebar } from "../../redux/Sidebar/Sidebar.actions";
 
 export default function Header() {
+  const dispatch = useDispatch();
+
   return (
     <Container>
       <Contain>
         <Area>
-          <IconButton aria-label="menu">
+          <IconButton
+            aria-label="menu"
+            onClick={() => dispatch(toggleSidebar())}
+          >
             <MenuIcon />
           </IconButton>
         </Area>

@@ -12,6 +12,9 @@ export const Wrapper = styled.div`
   flex: 1;
   width: 100%;
   flex-direction: column;
+  min-height: 100vh;
+  margin-left: ${({ show }) => (show ? "260px" : "0px")};
+  transition: margin 0.3s;
 `;
 
 export const Body = styled.div`
