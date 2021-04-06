@@ -6,7 +6,7 @@ export default function Footer() {
     <Container>
       <Contain>
         <div>
-          <Text>&copy; 2021 NG Informática - Teste React.</Text>
+          <Text>&copy; 2021 NG Informática.</Text>
         </div>
         <div>
           <Text className="mr-1">Powered by </Text>

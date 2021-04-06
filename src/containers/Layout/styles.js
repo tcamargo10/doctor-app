@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
   min-height: 100vh;
   margin-left: ${({ show }) => (show ? "260px" : "0px")};
   transition: margin 0.3s;
+  background-color: whitesmoke;
 `;
 
 export const Body = styled.div`
